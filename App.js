@@ -9,7 +9,7 @@ export default function App() {
   const handleLogin = () => {
     if (username && password) {
       // Display an alert with the username and a success message
-      Alert.alert('Success', `${username} Successfully Logged In`);
+      Alert.alert('Welcome ', `${username} You have successfully Logged In`);
 
       // Clear the input fields
       setUsername('');
